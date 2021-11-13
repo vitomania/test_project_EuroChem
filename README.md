@@ -13,7 +13,7 @@ model = Balance(start_year=2019, end_year=2020, loading_path='balance.csv')
 model.run()
 ```
 
-You can also specify an additional parameter 'by_day' for CurrencyRate, AvgTemp:
+You can also specify an additional parameter 'by_day' (which means the data is daily) for CurrencyRate, AvgTemp:
 ```
 model = CurrencyRate(start_date='2020-12-20', end_date='2020-12-25', loading_path='currency_rate.csv', by_day=True)
 model.run()
