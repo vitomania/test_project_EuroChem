@@ -1,0 +1,4 @@
+name: conda
+channels:
+  - defaults
+prefix: C:\Users\Kozhemyak_VV\.conda\envs\conda
